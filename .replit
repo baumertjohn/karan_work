@@ -1,2 +1,3 @@
 language = "python3"
-run = ""
+# run = "python3 numbers/pi_to_nth.py"
+run = "python3 hello_world.py"
