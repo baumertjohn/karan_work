@@ -28,7 +28,13 @@ def create_fib_sequence(num):
         print(num)
         return
     else:
-        pass
+        fib_x, fib_y = 0, 1
+        print(f"{fib_x}\n{fib_y}")
+        for i in range(2, num):
+            fib_z = fib_x + fib_y
+            print(fib_z)
+            fib_x, fib_y = fib_y, fib_z
+            i += 1
 
 
 if __name__ == '__main__':
